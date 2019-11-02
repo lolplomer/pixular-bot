@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '#ip') {
+    if (message.content === '-ip') or (message.content === 'Whats the ip?') {
     	message.reply('The IP is **play.pixularcraft.tk**');
         const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
         message.channel.send(attachment);
