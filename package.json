@@ -1,12 +1,14 @@
-{
-  "name": "PixuBot",
-  "description": "This is bot",
-  "version": "0.0.0",
-  "main": "bot.js",
-  "scripts": {
+  {
+ "name": "pixular",
+ "version": "0.0.1",
+ "description": "Bot",
+ "main": "bot.js",
+ "scripts": {
     "start": "node bot.js"
-  }, 
-  "dependencies": {
+ },
+ "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
-  }
+ }
+
+}
