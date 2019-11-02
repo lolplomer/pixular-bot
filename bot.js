@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!ip'){
-        message.channel.send(`Hey ${message.author}, The IP is `pixularcraft.tk``);
+        message.channel.send(`Hey ${message.author}, The IP is **pixularcraft.tk**`);
   	}
 }); 
 
