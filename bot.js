@@ -11,5 +11,10 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '#ip') {
+    	message.reply('The IP is **play.pixularcraft.tk**');
+  	}
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
