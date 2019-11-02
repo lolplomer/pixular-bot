@@ -10,6 +10,7 @@ client.on('message', message => {
         message.channel.send(`Hey ${message.author}, The IP is **pixularcraft.tk**`);
   	}
 });
+
 client.on('message', message => {
     if (message.content === '/test') {
         const exampleEmbed = new Discord.RichEmbed().setTitle('Some title');
