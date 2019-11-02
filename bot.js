@@ -6,17 +6,17 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '-ip'){
+    if (message.content === '/ip'){
         message.channel.send(`Hey ${message.author}, The IP is **pixularcraft.tk**`);
   	}
 });
 client.on('message', message => {
-    if (message.content === '-test') {
+    if (message.content === '/test') {
         const exampleEmbed = new Discord.RichEmbed().setTitle('Some title');
         channel.send(exampleEmbed);
         
 client.on('message', message => {
-    if (message.content === '-help') {
+    if (message.content === '/help') {
         const helpEmbed = new Discord.RichEmbed()
             .setColor('#0099ff')
             .setTitle('PixularCraft help')
