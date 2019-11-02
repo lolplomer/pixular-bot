@@ -12,10 +12,9 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '-ip'){
-    	message.reply('The IP is **play.pixularcraft.tk**');
+    if (message.content === '!ip'){
         const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
-        message.channel.send(attachment);
+        message.channel.send(`${message.author},`, attachment);
   	}
 }); 
 
