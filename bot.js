@@ -13,8 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!ip'){
-        const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
-        message.channel.send(`${message.author},`, attachment);
+        message.channel.send(`Hey ${message.author}, The IP is `pixularcraft.tk``);
   	}
 }); 
 
