@@ -15,23 +15,6 @@ client.on('message', message => {
     if (message.content === '/test') {
         const exampleEmbed = new Discord.RichEmbed().setTitle('Some title');
         channel.send(exampleEmbed);
-        
-client.on('message', message => {
-    if (message.content === '/help') {
-        const helpEmbed = new Discord.RichEmbed()
-            .setColor('#0099ff')
-            .setTitle('PixularCraft help')
-            .setURL('https://pixularcraft.tk/')
-            .setAuthor('Requested by ${message.author}')
-            .setDescription('Some helpful commands')
-            .setThumbnail('https://imgur.com/NNHSpWI')
-            .addField('!ip', 'Get the server ip')
-            .addField('!report', 'Report someone', true)
-            .addField('!new', 'Create ticket for support', true)
-            .setTimestamp()
-            .setFooter('PixularCraft bot by lolplomer#8123 :)', 'https://imgur.com/NNHSpWI');
-
-        channel.send(helpEmbed);
   	}
 });
 
